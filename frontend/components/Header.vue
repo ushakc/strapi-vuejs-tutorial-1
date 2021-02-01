@@ -1,4 +1,4 @@
-template>
+<template>
   <client-only>
     <nav class="uk-navbar-container" uk-navbar>
         <div class="uk-navbar-left">
