@@ -3,7 +3,11 @@ export default {
   head: {
     title: 'frontend',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'en',
+     script: [
+               { src: 'https://js.stripe.com/v3' }
+             ]
+
     },
     meta: [
       { charset: 'utf-8' },
@@ -43,10 +47,11 @@ export default {
         httpEndpoint: 'http://localhost:1337/graphql'
       }
     }
+
   },
 
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
 }
